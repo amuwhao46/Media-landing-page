@@ -9,11 +9,6 @@ body {
     margin: 100px;
     color: azure;
 }
-.aboutMe main {
-    background-color: rgba(45, 49, 49, 0.582);
-    border-radius: 20px;
-    padding: 10px;
-}
 /* Navigation */
 .navBar {
     display: flex;
@@ -21,7 +16,7 @@ body {
     align-items: center;
     padding: 10px;
     margin-bottom: 20px;
-    background-color: rgba(45, 49, 49, 0.582);
+    background-color: rgba(45, 49, 49, 0.65);
     border-radius: 20px;
     color: azure;
 }
@@ -43,3 +38,19 @@ padding: 10px;
 .navBar li a:hover {
     color: rgb(162, 177, 177);
 }
+/* About section*/
+.aboutMe main {
+    background-color: rgba(45, 49, 49, 0.582);
+    border-radius: 20px;
+    padding: 10px;
+}
+.satellite {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    
+}
+.footerH {
+    margin-top: 400px;
+}
+/*Columns*/
