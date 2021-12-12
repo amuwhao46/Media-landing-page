@@ -10,6 +10,7 @@ body {
     background-attachment: fixed;
     margin: 100px;
     color: azure;
+    font-family: 'Readex Pro', sans-serif;
 }
 /* Navigation */
 .navBar {
