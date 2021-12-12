@@ -41,7 +41,6 @@ padding: 10px;
 .navBar li a:hover {
     color: rgb(162, 177, 177);
 }
-/* About section*/
 .aboutMe {
     background-color: rgba(45, 49, 49, 0.582);
     border-radius: 20px;
@@ -67,9 +66,19 @@ padding: 10px;
     display: table;
     clear: both;
 }
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 800px){
     .column {
         width: 100%;
     }
 }
-
+/**/
+iframe {
+    width: 852px; 
+    height: 480px;
+}
+@media screen and (max-width: 800px){
+    iframe {
+        max-width: 100%;
+        height: auto;
+    }
+}
