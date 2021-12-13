@@ -96,9 +96,12 @@ iframe {
 }
 /*Social tags*/
 .socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: auto;
     width: 50%;
-    padding: 30px;
+    padding: 10px;
 }
 .socials ul {
     list-style: none;
@@ -107,7 +110,7 @@ iframe {
 }
 .socials li {
     float: left;
-    padding: 10px;
+    margin: 25px;
 }
 .socials img {
     width: 32px;
