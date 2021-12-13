@@ -85,3 +85,7 @@ iframe {
         height: auto;
     }
 }
+/*table*/
+.tables table {
+    border: 1px solid azure;
+}
