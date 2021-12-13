@@ -94,3 +94,21 @@ iframe {
 .tables th, td {
     padding: 5px;
 }
+/*Social tags*/
+.socials {
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+}
+.socials ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.socials li {
+    float: left;
+    padding: 10px;
+}
+.socials img {
+    width: 32px;
+}
