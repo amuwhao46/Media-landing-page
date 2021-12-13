@@ -86,6 +86,11 @@ iframe {
     }
 }
 /*table*/
-.tables table {
+.tables th, td {
+    border-collapse: collapse;
     border: 1px solid azure;
+    text-align: center;
+}
+.tables th, td {
+    padding: 5px;
 }
