@@ -69,7 +69,7 @@ footer {
     display: table;
     clear: both;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1080px){
     .column {
         width: 100%;
     }
@@ -79,7 +79,7 @@ iframe {
     width: 852px; 
     height: 480px;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1080px){
     iframe {
         max-width: 100%;
         height: auto;
@@ -114,4 +114,13 @@ iframe {
 }
 .socials img {
     width: 32px;
+}
+.pic a img {
+    width: 40%;
+}
+@media screen and (max-width: 1080px) {
+    .pic a img {
+        width: 100%;
+    }
+    
 }
